@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #19244d;
+  color: antiquewhite;
+  padding: 50px;
+  margin: 350px 350px;
+  border: 2px solid blue;
+  border-radius: 25px;
+  font-size: xx-large;
+  text-shadow: 1px 1px 1px black;
+}
+
+.score {
+  border: 2px solid black;
+  background: black;
+  padding: 25px 25px;
+  text-align: center;
+  font-family: "Bitcount Single Ink", system-ui;
+  font-weight: 500;
+  color: crimson;
+}
+
+button {
+  background: #19244d;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+  padding: 20px 20px;
+  font-size: large;
+}
+
+button:hover {
+  font-size: 20px;
+}

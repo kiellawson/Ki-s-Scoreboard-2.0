@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Ki's Scoreboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <h3 class="score" id="num1-el">12</h3>
+        <button onclick="addOne()">+1</button>
+        <button onclick="addTwo()">+2</button>
+        <button onclick="addThree()">+3</button>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <h3 class="score" id="num2-el">5</h3>
+        <button onclick="addOneGuest()">+1</button>
+        <button onclick="addTwoGuest()">+2</button>
+        <button onclick="addThreeGuest()">+3</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
